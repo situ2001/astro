@@ -1,5 +1,17 @@
 # astro
 
+## 4.16.8
+
+### Patch Changes
+
+- [#12286](https://github.com/withastro/astro/pull/12286) [`9d6bcdb`](https://github.com/withastro/astro/commit/9d6bcdb88fcb9df0c5c70e2b591bcf962ce55f63) Thanks [@florian-lefebvre](https://github.com/florian-lefebvre)! - Fixes a case where a warning for experimental `astro:env` support would be shown when using an adapter but not actually using `astro:env`
+
+- [#12301](https://github.com/withastro/astro/pull/12301) [`0cfc69d`](https://github.com/withastro/astro/commit/0cfc69d499815d4e1f1dc37cf32653195586087a) Thanks [@apatel369](https://github.com/apatel369)! - Fixes an issue with action handler context by passing the correct context (`ActionAPIContext`).
+
+- [#12312](https://github.com/withastro/astro/pull/12312) [`5642ef9`](https://github.com/withastro/astro/commit/5642ef9029890fc29793c160321f78f62cdaafcb) Thanks [@koyopro](https://github.com/koyopro)! - Fixes an issue where using `getViteConfig()` returns incorrect and duplicate configuration
+
+- [#12245](https://github.com/withastro/astro/pull/12245) [`1d4f6a4`](https://github.com/withastro/astro/commit/1d4f6a4989bc1cfd7109b1bff41503f115660e02) Thanks [@bmenant](https://github.com/bmenant)! - Add `components` property to MDXInstance type definition (RenderResult and module import)
+
 ## 4.16.7
 
 ### Patch Changes
